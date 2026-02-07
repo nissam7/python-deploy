@@ -2,7 +2,7 @@ function sendData() {
   const name = document.getElementById("name").value;
   const message = document.getElementById("message").value;
 
-  fetch("http://backend:5000/submit", {
+  fetch("/submit", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
