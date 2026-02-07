@@ -12,4 +12,9 @@ services:
     build: ./backend
     expose:
       - "5000"
+    environment:
+      DB_HOST: database-1.cv6m8aiiqflt.eu-north-1.rds.amazonaws.comi
+      DB_USER: admin
+      DB_PASS: 8590251179
+      DB_NAME: 
 
