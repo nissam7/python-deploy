@@ -5,7 +5,7 @@ pipeline {
 
     stage('Clone Code') {
       steps {
-        git 'https://github.com/USERNAME/REPO.git'
+        git branch: 'main', url: 'https://github.com/nissam7/python-deploy.git'
       }
     }
 
